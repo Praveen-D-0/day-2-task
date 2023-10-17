@@ -3,7 +3,7 @@
 # Quesiton 1
 ## The Differences Between the Document and Window Objects
 
-The window is at a root/top level at the JavaScript object hierarchy. It  is a global/root object in JavaScript and it is the root object of the Document object model(DOM);
+
 
 A document is an object inside the window object and we use a document object for manipulation inside the document.
 
@@ -12,6 +12,8 @@ The first thing that gets loaded into the browser is the window and the properti
 There was a document object too so what about it then?
 
 So after the window gets loaded then there’s a document (HTML, PHP, or another document) loaded inside that window, and the properties related to that document is stored in the document object. Properties related to document objects are title, URL, cookie, etc.
+
+The window is at a root/top level at the JavaScript object hierarchy. It  is a global/root object in JavaScript and it is the root object of the Document object model(DOM);
 
 
 In the world of web development, understanding the intricacies of the Document and Window objects is like unlocking the keys to a vast kingdom of dynamic and interactive web experiences. These objects are at the core of the Document Object Model (DOM), a critical concept that governs how web pages are structured, manipulated, and interacted with. Let's dive into the differences between the Document and Window objects and explore their roles in shaping the modern web.
@@ -45,11 +47,10 @@ The Window object concentrates on methods and properties related to the browser 
 |It is loaded after the loading window because the window contains a document.|	It is loaded before the document because window container document |
 |It is the root element of the document object model.                 |	The window is the global element for all objects, functions, etc.|
 |We can not access windows objects properties inside the document.    |	We can access document object properties inside the window.      |
-|logically:   
-           document:{ properties}                                |logically:   
-                                                                             window:{ 
+|logically:                                                           |logically: 
+           document:{ properties}                                                 window:{ 
                                                                                      document:{properties} 
-                                                                                     }                    |
+                                                                                     }                                                           |
 |Example: document.title will return the title of the document        |	Example: window.document.title will return the title of the document. |
 
 In the dynamic landscape of web development, the Document and Window objects hold pivotal roles in shaping how users interact with web pages and how developers create rich and engaging experiences. Understanding the distinctions between these two objects empowers developers to harness the power of the DOM and create web applications that are responsive, interactive, and user-friendly. Whether you're manipulating the content within a document or controlling the behavior of the browser window, the Document and Window objects are your allies in crafting the next generation of web experiences.
