@@ -47,10 +47,6 @@ The Window object concentrates on methods and properties related to the browser 
 |It is loaded after the loading window because the window contains a document.|	It is loaded before the document because window container document |
 |It is the root element of the document object model.                 |	The window is the global element for all objects, functions, etc.|
 |We can not access windows objects properties inside the document.    |	We can access document object properties inside the window.      |
-|logically:                                                           |logically: 
-|          document:{ properties}                                     |           window:{ 
-                                                                                     document:{properties} 
-                                                                                     }                                                           |
 |Example: document.title will return the title of the document        |	Example: window.document.title will return the title of the document. |
 
 In the dynamic landscape of web development, the Document and Window objects hold pivotal roles in shaping how users interact with web pages and how developers create rich and engaging experiences. Understanding the distinctions between these two objects empowers developers to harness the power of the DOM and create web applications that are responsive, interactive, and user-friendly. Whether you're manipulating the content within a document or controlling the behavior of the browser window, the Document and Window objects are your allies in crafting the next generation of web experiences.
