@@ -48,7 +48,7 @@ The Window object concentrates on methods and properties related to the browser 
 |It is the root element of the document object model.                 |	The window is the global element for all objects, functions, etc.|
 |We can not access windows objects properties inside the document.    |	We can access document object properties inside the window.      |
 |logically:                                                           |logically: 
-           document:{ properties}                                                 window:{ 
+|          document:{ properties}                                     |           window:{ 
                                                                                      document:{properties} 
                                                                                      }                                                           |
 |Example: document.title will return the title of the document        |	Example: window.document.title will return the title of the document. |
